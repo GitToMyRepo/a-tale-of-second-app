@@ -1,0 +1,20 @@
+version: '3'
+services:
+  a-tale-of-second-app-container:
+    image: a-tale-of-second-app:latest
+    ports:
+      - "8081:8081"
+    networks:
+      - producer-consumer-network
+
+  simple-consumer-container:
+    image: a-tale-of-first-app:latest
+    ports:
+      - "8080:8080"
+    depends_on:
+      - a-tale-of-second-app-container
+    networks:
+      - producer-consumer-network
+
+networks:
+  producer-consumer-network:
