@@ -1,10 +1,10 @@
-package com.mywork.ataleofsecondapp;
+package com.mywork.producer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ATaleOfSecondAppApplicationTests {
+class SimpleProducerApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.mywork.ataleofsecondapp;
+package com.mywork.producer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ATaleOfSecondAppApplication {
+public class SimpleProducerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ATaleOfSecondAppApplication.class, args);
+		SpringApplication.run(SimpleProducerApplication.class, args);
 	}
 
 }
