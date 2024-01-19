@@ -7,7 +7,7 @@ services:
     networks:
       - producer-consumer-network
 
-  simple-consumer-container:
+  simple-consumer-app-container:
     image: simple-consumer-app:latest
     ports:
       - "8080:8080"
